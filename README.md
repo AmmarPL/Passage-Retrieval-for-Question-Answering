@@ -16,4 +16,7 @@ Previous methods for passage retrieval have used techniques like TFIDF and BM25.
 Cross encoders can give a score indicating the relevance between a passsage and query. This makes them ideal for reranking passages that have been retrieved using passage retrieval method like DPR or BM25. Here, I have reranked passages retrieved using DPR.
 
 ## Question Answering
-Passage retrieval can be used to improve question answering, by giving both the question and a retrieved passage as input to the summarization model.
+Passage retrieval can be used to improve question answering, by giving both the question and a retrieved passage as input to the summarization model. I have compared the three methods (BM25, DPR, and DPR with cross encoder reranking) both quantitatively and qualitatively.
+
+<img width="913" alt="image" src="https://github.com/AmmarPL/Passage-Retrieval-for-Question-Answering/assets/46021351/94244cf4-a4a3-42ba-b5f2-1ea780cfa6be">
+
